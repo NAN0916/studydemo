@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+        }
+    </style>
+</head>
+<body>
+<ul>
+    <div></div>
+    <div></div>
+    <div></div>
+</ul>
+
+<script>
+//    var date=new Date();
+//    var per=date+5;
+
+//document.cookie='hellow';
+
+    var date=new Date();
+    date.setDate(date.getDate()+5);//设置日期
+//    document.cookie='age=123;expires='+date.toGMTString();
+
+
+    function setCookie(key,value,expires) {
+        document.cookie=key+'='+value+'; expires='+expires+"; path=/";
+    }
+    setCookie('username','lisi',date.toGMTString());
+
+//    "age=123;
+    // hellow;
+    // username=lisi;
+    // _ga=GA1.1.2100430116.1489759211"
+    function getCookie(cname) {
+        var cookies=document.cookie;
+        var arr=cookies.split(';');
+        for(var i=0;i<arr.length;i++)
+        {
+            var kv=arr[i].split('=');
+            if(cname==kv[0])
+            {
+                console.log(kv[1]);
+                return kv[1];
+            }else {
+                console.log("没有");
+                return ;
+            }
+        }
+    }
+    getCookie('age');
+    getCookie('username');
+
+var param='username=张三&age=12';
+param=encodeURIComponent(param);
+var str='http://locahost?'+param;
+console.log(str);
+
+</script>
+
+</body>
+</html>
