@@ -33,36 +33,6 @@
 
     <?php include('/view/common/script.html') ?>
     <script type="text/javascript">
-        $("#loginForm").submit(function () {
-
-            var formData = $(this).serialize();
-
-            $.ajax({
-                   type:'post',
-                   url: '/api/login',
-                   data:formData,
-                   dataType:"json",
-                   success:function (data) {
-                       if(data.code==200)
-                       {
-                           //转为字符串
-                           var logInfo=JSON.stringify(data.result);
-                           $.cookie('logInfo',logInfo,{path : '/'});
-                           location.href = '/index/index';
-
-                       }
-
-                   },
-                   error:function (data) {
-                       //打印错误信息
-                       console.log(data.responseText);
-                   }
-
-               })
-
-
-            return false;
-        });
 
     </script>
 </body>
