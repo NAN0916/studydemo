@@ -5,7 +5,9 @@
 
     var flag = $.cookie('PHPSESSID');
 
-    if(!flag){
+    var pathname=location.pathname;
+    if(!flag && pathname.indexOf('login')==-1){
         // 没有登录
         location.href = '/login'
     }
+    
