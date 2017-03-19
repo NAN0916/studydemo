@@ -10,14 +10,13 @@
         $url = $_SERVER['PATH_INFO'];
         // 去掉路径中的第一个字符（/）
         $str = substr($url, 1);
-
         // 将字符串按照/进行分割
         $arr = explode('/',$str);
         if(count($arr) == 2){
             $path = $arr[0];
             $filename = $arr[1];
         }else{
-         $filename = -'login';
+            $filename = 'login';
         }
     }else{
         // 表示登录页面

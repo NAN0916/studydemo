@@ -1,11 +1,13 @@
+
 define(['jquery','echarts','cookie'],function($,echarts){
     $('.navs ul').prev('a').on('click', function () {
         $(this).next().slideToggle();
     });
 
+    // 没有登录的时候跳转到登录页面
+    var pathname = location.pathname;
     var flag = $.cookie('PHPSESSID');
-    var pathname=location.pathname;
-    if(!flag && pathname.indexOf('login')==-1){
+    if(!flag && pathname.indexOf('login') == -1){
         // 没有登录
         location.href = '/login'
     }
@@ -34,19 +36,27 @@ define(['jquery','echarts','cookie'],function($,echarts){
         })
         return false;
     });
-
-
-
-
     //设置头像和名字
-    var obj=JSON.parse($.cookie('logInfo'));
 
-    $(".aside .profile img").attr("src",obj.tc_avatar);
-    $(".aside .profile h4").html(obj.tc_name);
+    //退出
+    $("#loginout").click(function () {
 
-
-
-})
+        $.ajax({
+            type : 'post',
+            url : '/api/logout',
+            dataType : 'json',
+            success : function(data){
+                if(data.code == 200){
+                    location.href = '/login';
+                }
+            }
+        });
+    });
+    // 渲染登录信息
+    var obj = JSON.parse($.cookie('logInfo'));
+    $('.aside .profile img').attr('src',obj.tc_avatar);
+    $('.aside .profile h4').html(obj.tc_name);
+});
 
 
 
