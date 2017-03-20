@@ -6,6 +6,13 @@ require.config({
         jquery : 'jquery/jquery.min',
         cookie : 'jquery-cookie/jquery.cookie',
         echarts : 'echarts/echarts.min',
-        template : 'artTemplate/template'
+        template : 'artTemplate/template',
+        bootstrap : 'bootstrap/js/bootstrap',
+    },
+    shim : {
+        bootstrap : {
+            // 把bootstrap转成标准模块（依赖于标准的jQuery模块）
+            deps : ['jquery']
+        }
     }
 });
