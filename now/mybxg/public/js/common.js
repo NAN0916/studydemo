@@ -69,7 +69,7 @@ define(['jquery','echarts','template','cookie'],function($,echarts,template){
     var thrmlStr=render(obj);
  $(".aside .profile ").html(thrmlStr);
 
-
+   
 
 });
 

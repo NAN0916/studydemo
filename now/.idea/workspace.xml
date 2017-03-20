@@ -21,30 +21,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="list.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybxg/view/teather/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="90" column="74" selection-start-line="90" selection-start-column="63" selection-end-line="90" selection-end-column="74" />
-              <folding>
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#table#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#script#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="script.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mybxg/view/common/script.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybxg/view/index/login.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,10 +34,34 @@
       <file leaf-file-name="util.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybxg/public/js/util.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="10" selection-end-column="9" />
+            <state relative-caret-position="390">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="e#0#40#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybxg/view/common/style.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybxg/public/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1020">
+              <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="e#326#382#0" expanded="false" />
+                <element signature="e#432#1095#0" expanded="false" />
+                <element signature="e#1146#1428#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -70,23 +70,33 @@
       <file leaf-file-name="aside.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybxg/view/common/aside.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="338">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="teather-list.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mybxg/public/less/index.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="teather-list.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybxg/public/js/teather-list.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#508#1251#0" expanded="false" />
-                <element signature="e#1334#2159#0" expanded="false" />
-                <marker date="1490017044430" expanded="false" signature="159:2177" placeholder="{&quot;type&quot;: 'get'...}" />
+                <element signature="e#518#1261#0" expanded="false" />
+                <element signature="e#1344#2169#0" expanded="false" />
+                <marker date="1490018278941" expanded="false" signature="169:2187" placeholder="{&quot;type&quot;: 'get'...}" />
               </folding>
             </state>
           </provider>
@@ -95,8 +105,8 @@
       <file leaf-file-name="config.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybxg/public/js/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+            <state relative-caret-position="324">
+              <caret line="12" column="33" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -105,10 +115,22 @@
       <file leaf-file-name="echarts.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mybxg/public/js/echarts.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="78">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="286">
+              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
               <folding>
-                <element signature="e#237#600#0" expanded="false" />
+                <element signature="e#246#609#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="overlayer.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mybxg/public/js/overlayer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="11" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#40#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -137,17 +159,18 @@
         <option value="$PROJECT_DIR$/mybxg/view/index/login.html" />
         <option value="$PROJECT_DIR$/mybxg/index.php" />
         <option value="$PROJECT_DIR$/mybxg/view/index/index.html" />
-        <option value="$PROJECT_DIR$/mybxg/public/js/common.js" />
         <option value="$PROJECT_DIR$/mybxg/view/teather/add.html" />
         <option value="$PROJECT_DIR$/mybxg/view/common/script.html" />
         <option value="$PROJECT_DIR$/index.css" />
         <option value="$PROJECT_DIR$/indx.html" />
         <option value="$PROJECT_DIR$/mybxg/view/teather/list.html" />
-        <option value="$PROJECT_DIR$/mybxg/view/common/aside.html" />
         <option value="$PROJECT_DIR$/mybxg/public/js/util.js" />
-        <option value="$PROJECT_DIR$/mybxg/public/js/config.js" />
-        <option value="$PROJECT_DIR$/mybxg/public/js/echarts.js" />
+        <option value="$PROJECT_DIR$/mybxg/public/js/common.js" />
+        <option value="$PROJECT_DIR$/mybxg/view/common/aside.html" />
         <option value="$PROJECT_DIR$/mybxg/public/js/teather-list.js" />
+        <option value="$PROJECT_DIR$/mybxg/public/js/echarts.js" />
+        <option value="$PROJECT_DIR$/mybxg/public/js/config.js" />
+        <option value="$PROJECT_DIR$/mybxg/public/js/overlayer.js" />
       </list>
     </option>
   </component>
@@ -157,10 +180,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="567" />
-    <option name="y" value="18" />
+    <option name="x" value="-145" />
+    <option name="y" value="31" />
     <option name="width" value="895" />
-    <option name="height" value="745" />
+    <option name="height" value="747" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -214,12 +237,13 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\bxgProject\now\mybxg\public\js" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\bxgProject\now\mybxg\public\images" />
       <recent name="E:\bxgProject\now\mybxg\public\assets" />
       <recent name="E:\bxgProject\now\mybxg\view\index" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\bxgProject\now\mybxg\public\js" />
     </key>
   </component>
   <component name="RunManager">
@@ -295,18 +319,18 @@
       <workItem from="1489804939431" duration="3339000" />
       <workItem from="1489838277445" duration="13473000" />
       <workItem from="1489884573694" duration="20221000" />
-      <workItem from="1489979161107" duration="21738000" />
+      <workItem from="1489979161107" duration="23855000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71200000" />
+    <option name="totallyTimeSpent" value="73317000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="567" y="18" width="895" height="745" extended-state="0" />
-    <editor active="true" />
+    <frame x="-145" y="31" width="895" height="747" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42068157" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41950646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="版本控制" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -366,22 +390,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/mybxg/view/common/aside.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybxg/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybxg/view/teather/add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -449,7 +457,7 @@
         <state relative-caret-position="300">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#237#600#0" expanded="false" />
+            <element signature="e#246#609#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -647,26 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybxg/view/common/style.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybxg/public/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#326#382#0" expanded="false" />
-            <element signature="e#432#1095#0" expanded="false" />
-            <element signature="e#1146#1428#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mybxg/view/index/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -733,51 +721,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybxg/view/common/aside.html">
+    <entry file="file://$PROJECT_DIR$/mybxg/public/less/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mybxg/public/js/config.js">
+    <entry file="file://$PROJECT_DIR$/mybxg/public/js/common.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybxg/public/js/echarts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="1020">
+          <caret line="71" column="0" selection-start-line="71" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding>
-            <element signature="e#237#600#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mybxg/public/js/util.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="10" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#40#0" expanded="false" />
+            <element signature="e#326#382#0" expanded="false" />
+            <element signature="e#432#1095#0" expanded="false" />
+            <element signature="e#1146#1428#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mybxg/public/js/teather-list.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="9" selection-end-column="0" />
+        <state relative-caret-position="286">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#508#1251#0" expanded="false" />
-            <element signature="e#1334#2159#0" expanded="false" />
-            <marker date="1490017044430" expanded="false" signature="159:2177" placeholder="{&quot;type&quot;: 'get'...}" />
+            <element signature="e#518#1261#0" expanded="false" />
+            <element signature="e#1344#2169#0" expanded="false" />
+            <marker date="1490018278941" expanded="false" signature="169:2187" placeholder="{&quot;type&quot;: 'get'...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybxg/view/common/aside.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybxg/public/js/echarts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
+          <folding>
+            <element signature="e#246#609#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybxg/public/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybxg/public/js/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybxg/view/common/style.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mybxg/public/js/overlayer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="11" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#40#0" expanded="false" />
           </folding>
         </state>
       </provider>

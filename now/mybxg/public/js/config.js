@@ -8,7 +8,9 @@ require.config({
         echarts : 'echarts/echarts.min',
         template : 'artTemplate/template',
         bootstrap : 'bootstrap/js/bootstrap',
-        util:'../js/util'
+        nprogress : 'nprogress/nprogress',
+        util:'../js/util',
+        overlay:'../js/overlayer'
     },
     shim : {
         bootstrap : {

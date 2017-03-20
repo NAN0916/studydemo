@@ -3,7 +3,7 @@
 * 讲师管理
 *
 * */
-define(['jquery','template','util','bootstrap'],function ($,template,util){
+define(['jquery','template','util','bootstrap','overlay'],function ($,template,util){
 
     // 处理选中状态
     util.setMenu(location.pathname);

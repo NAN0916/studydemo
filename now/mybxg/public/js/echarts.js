@@ -1,6 +1,6 @@
-define(['echarts','jquery','util'],function(echarts,$){
+define(['echarts','jquery','util'],function(echarts,$,util){
    // 设置aside选中状态
-util.setMenu(location.pathname);
+    util.setMenu(location.pathname);
 
     // 基于准备好的dom，初始化echarts实例
 
