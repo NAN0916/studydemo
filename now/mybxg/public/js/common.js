@@ -1,5 +1,5 @@
 
-define(['jquery','echarts','cookie'],function($,echarts){
+define(['jquery','echarts','template','cookie'],function($,echarts,template){
     $('.navs ul').prev('a').on('click', function () {
         $(this).next().slideToggle();
     });
@@ -36,7 +36,7 @@ define(['jquery','echarts','cookie'],function($,echarts){
         })
         return false;
     });
-    //设置头像和名字
+
 
     //退出
     $("#loginout").click(function () {
@@ -52,10 +52,25 @@ define(['jquery','echarts','cookie'],function($,echarts){
             }
         });
     });
-    // 渲染登录信息
+
+    //设置头像和名字
+   //  // 渲染登录信息
     var obj = JSON.parse($.cookie('logInfo'));
-    $('.aside .profile img').attr('src',obj.tc_avatar);
-    $('.aside .profile h4').html(obj.tc_name);
+
+
+   var tpl='<div class="avatar img-circle"> ' +
+       '<img src="{{tc_avatar}}">' +
+       ' </div> ' +
+       '<h4>{{tc_name}}</h4>';
+
+// 编译tpl
+// 用obj渲染rem
+ var render=template.compile(tpl);
+    var thrmlStr=render(obj);
+ $(".aside .profile ").html(thrmlStr);
+
+
+
 });
 
 

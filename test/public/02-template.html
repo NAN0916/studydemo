@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+    </style>
+</head>
+<body>
+<div class="one">
+
+</div>
+
+<script src="/public/assets/requirejs/require.js"></script>
+<script>
+    require.config({
+        //设置默认根路径
+        //只会影响baseUrl里面的paths,会影响所有的路径
+        baseUrl:'/public',
+        paths:{
+            jquery:"assets/jquery/jquery",
+            template:"assets/artTemplate/template"
+
+        }
+    });
+    require(['common/config.js']);
+
+</script>
+<script type="text/template" id="template">
+    <ul>
+        {{each arr as value i}}
+            <li>{{i+1}}--- {{value}}</li>
+        {{/each}}
+
+    </ul>
+
+</script>
+
+
+</body>
+</html>
