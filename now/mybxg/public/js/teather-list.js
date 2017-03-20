@@ -3,7 +3,10 @@
 * 讲师管理
 *
 * */
-define(['jquery','template','bootstrap'],function ($,template){
+define(['jquery','template','util','bootstrap'],function ($,template,util){
+
+    // 处理选中状态
+    util.setMenu(location.pathname);
 
     $.ajax({
         type:'get',

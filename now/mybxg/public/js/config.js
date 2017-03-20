@@ -8,6 +8,7 @@ require.config({
         echarts : 'echarts/echarts.min',
         template : 'artTemplate/template',
         bootstrap : 'bootstrap/js/bootstrap',
+        util:'../js/util'
     },
     shim : {
         bootstrap : {

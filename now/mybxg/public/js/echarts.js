@@ -1,5 +1,9 @@
-define(['echarts'],function(echarts){
+define(['echarts','jquery','util'],function(echarts,$){
+   // 设置aside选中状态
+util.setMenu(location.pathname);
+
     // 基于准备好的dom，初始化echarts实例
+
     var myChart = echarts.init(document.getElementById('main'));
 
 // 指定图表的配置项和数据
