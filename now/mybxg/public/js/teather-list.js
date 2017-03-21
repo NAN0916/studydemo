@@ -18,8 +18,7 @@ define(['jquery','template','util','bootstrap','overlay'],function ($,template,u
             // 模板引擎的作用 设置模板+数据==静态页面片段
           var html=template('templateTpl',{list:data.result});
             $("#teachetList").html(html);
-
-// 查看
+//             查看
             $(".teacherBtns").find('a:eq(0)').click(function () {
                 //处理弹框
                 var tc_id=$(this).parents('td').attr('data-tcid');
@@ -37,10 +36,8 @@ define(['jquery','template','util','bootstrap','overlay'],function ($,template,u
                             $("#teacherInfo").html(html);
                             $('#teacherModal').modal();
                         }
-
                     }
                 })
-
             })
             // 注销
             $(".teacherBtns").find('a:eq(2)').click(function (){
