@@ -12,7 +12,6 @@ define(['jquery'],function ($) {
         qs:function (pname) {
             var pathname = location.search;
             pathname = pathname.slice(1);
-            // '?username=lisi & age=12 & gender=male';
             var obj={};
             if(pathname){
                 var arr=pathname.split("&");
