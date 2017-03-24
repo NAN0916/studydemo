@@ -57,12 +57,10 @@ define(['jquery','echarts','template','cookie'],function($,echarts,template){
    //  // 渲染登录信息
     var obj = JSON.parse($.cookie('logInfo'));
 
-
    var tpl='<div class="avatar img-circle"> ' +
        '<img src="{{tc_avatar}}">' +
        ' </div> ' +
        '<h4>{{tc_name}}</h4>';
-
 // 编译tpl
 // 用obj渲染rem
  var render=template.compile(tpl);

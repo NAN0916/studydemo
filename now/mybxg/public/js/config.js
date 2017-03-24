@@ -14,8 +14,11 @@ require.config({
         validate : 'validate/jquery-validate',
         form : 'jquery-form/jquery.form',
         util : '../js/util',
-        overlay : '../js/overlayer'
-    
+        overlay : '../js/overlayer',
+        ckeditor:'ckeditor/ckeditor',// 富文本
+        region:'jquery-region/jquery.region',
+        uploadify:'uploadify/jquery.uploadify'//上传文件
+
     },
     shim : {
         bootstrap : {
@@ -27,7 +30,18 @@ require.config({
         },
         validate : {
             deps : ['jquery']
+        },
+        ckeditor : {
+            exports : 'CKEDITOR',
+            deps : ['jquery']
+        },
+        region:{
+            deps:['jquery']
+        },
+        uploadify:{
+            deps:['jquery']
         }
+
 
     }
 });
